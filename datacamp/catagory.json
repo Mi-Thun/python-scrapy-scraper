@@ -1,0 +1,14 @@
+[
+    {
+        "Computer Science": [
+            "https://www.datacamp.com/courses/feature-engineering-for-nlp-in-python",
+            "https://www.datacamp.com/courses/winning-a-kaggle-competition-in-python"
+        ]
+    },
+    {
+        "Mathematics": [
+            "https://www.datacamp.com/courses/linear-algebra-for-data-science-in-r",
+            "https://www.datacamp.com/courses/feature-engineering-for-nlp-in-python"
+        ]
+    }
+]

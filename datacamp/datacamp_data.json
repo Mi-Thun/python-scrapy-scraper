@@ -1,0 +1,1388 @@
+[
+    {
+        "Learning_Product_Name": "Predictive Analytics using Networked Data in R",
+        "Learning_Product_Category": [],
+        "Learning_Product_Image_URL": "https://images.datacamp.com/image/upload/v1683120172/courses/general_course.png",
+        "Learning_Product_URL": "https://www.datacamp.com/courses/predictive-analytics-using-networked-data-in-r",
+        "Learning_Product_Price": null,
+        "Topics": [
+            {
+                "Topic Name": "Introduction, networks and labelled networks"
+            },
+            {
+                "Topic Name": "Homophily"
+            },
+            {
+                "Topic Name": "Network Featurization"
+            },
+            {
+                "Topic Name": "Putting it all together"
+            }
+        ],
+        "Keyword_Matches": [],
+        "Vendor": "Datacamp",
+        "Skills": [
+            {
+                "Skill Name": "r"
+            }
+        ],
+        "Level": 2,
+        "Total_Time": "4 Hours",
+        "Provided_by": "Maria Oskarsdottir",
+        "Related_Job_Titles": [],
+        "Language": "en",
+        "Type": "Course",
+        "Short_Description": "Learn to predict labels of nodes in networks using network learning and by extracting descriptive features from the network",
+        "Long_Description": "In this course, you will learn to perform state-of-the art predictive analytics using networked data in R.  The aim of network analytics is to predict to which class a network node belongs, such as churner or not, fraudster or not, defaulter or not, etc.  To accomplish this, we discuss how to leverage information from the network and its underlying structure in a predictive way.  More specifically, we introduce the idea of featurization such that network features can be added to non-network features as such boosting the performance of any resulting analytical model.  In this course, you will use the igraph package to generate and label a network of customers in a churn setting and learn about the foundations of network learning. Then, you will learn about homophily, dyadicity and heterophilicty, and how these can be used to get key exploratory insights in your network. Next, you will use the functionality of the igraph package to compute various network features to calculate both node-centric as well as neighbor based network features.  Furthermore, you will use the Google PageRank algorithm to compute network features and empirically validate their predictive power. Finally, we teach you how to generate a flat dataset from the network and analyze it using logistic regression and random forests.",
+        "Prerequisites": [
+            "Network Analysis in R",
+            "Supervised Learning in R: Classification"
+        ],
+        "UserRating": null,
+        "UserRatingCount": null,
+        "Modules": [
+            {
+                "Module Name": "Introduction, networks and labelled networks",
+                "Module Description": "In this chapter you will be introduced to labelled networks, network learning and the challanges that can arise.",
+                "Time": null,
+                "Lessons": [
+                    {
+                        "Lesson Name": "Motivation: social networks and predictive analytics",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Most likely to churn",
+                        "Lesson Description": null,
+                        "Type": "Multiple Choice Questions",
+                        "Raw Type": "PureMultipleChoiceExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Create a network from an edgelist",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Labeled networks and network learning",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Labeling nodes",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Coloring nodes",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Visualizing Churners",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Relational Neighbor Classifier",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Challenges of network-based inference",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Challenges in Network learning",
+                        "Lesson Description": null,
+                        "Type": "Multiple Choice Questions",
+                        "Raw Type": "PureMultipleChoiceExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Probabilistic Relational Neighbor Classifier",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Collective Inferencing",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    }
+                ]
+            },
+            {
+                "Module Name": "Homophily",
+                "Module Description": "In this chapter you will learn about homophily and how to compute the two measures that can be used to characterice it, dyadicity and heterophilicty.",
+                "Time": null,
+                "Lessons": [
+                    {
+                        "Lesson Name": "Homophily",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Homophilic networks",
+                        "Lesson Description": null,
+                        "Type": "Multiple Choice Questions",
+                        "Raw Type": "PureMultipleChoiceExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Extracting types of edges",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Counting types of edges",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Counting nodes and computing connectance",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Dyadicity",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Same label edges",
+                        "Lesson Description": null,
+                        "Type": "Multiple Choice Questions",
+                        "Raw Type": "PureMultipleChoiceExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Dyadicity of churners",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Dyadicity of non-churners",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "MultipleChoiceExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Heterophilicity",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Cross label edges",
+                        "Lesson Description": null,
+                        "Type": "Multiple Choice Questions",
+                        "Raw Type": "PureMultipleChoiceExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Compute heterophilicity",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Summary of homophily",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Dyadicity, Heterophilicity, & Homophily",
+                        "Lesson Description": null,
+                        "Type": "Multiple Choice Questions",
+                        "Raw Type": "PureMultipleChoiceExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Is the network homophilic?",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "MultipleChoiceExercise",
+                        "time": null
+                    }
+                ]
+            },
+            {
+                "Module Name": "Network Featurization",
+                "Module Description": "In this chapter you will use the igraph package to compute various network features and add them to the network.",
+                "Time": null,
+                "Lessons": [
+                    {
+                        "Lesson Name": "Basic Network features",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Simple network features",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "BulletExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Centrality features",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "BulletExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Transitivity",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Link-Based Features",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Adjacency matrices",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Link-based features",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Second order link-based features",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Neighborhood link-based features",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "BulletExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "PageRank",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Most influential node",
+                        "Lesson Description": null,
+                        "Type": "Multiple Choice Questions",
+                        "Raw Type": "PureMultipleChoiceExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Changes in PageRank",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Convergence of PageRank",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Personalized PageRank",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Extract PageRank features",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "BulletExercise",
+                        "time": null
+                    }
+                ]
+            },
+            {
+                "Module Name": "Putting it all together",
+                "Module Description": "In this chapter you will use the network from Chapter 3 to create a flat dataset. Using standard data mining techniques, you will build predictive models and measure their performance with AUC and top decile lift.",
+                "Time": null,
+                "Lessons": [
+                    {
+                        "Lesson Name": "Extract a dataset",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Getting a flat dataset",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Missing Values",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "MultipleChoiceExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Replace missing values",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Correlated variables",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Building a predictive model",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Split into train and test",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Logistic regression model",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "BulletExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Random forest model",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Evaluating model performance",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Predicting churn",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "BulletExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Measure AUC",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "MultipleChoiceExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Measure top decile lift",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "MultipleChoiceExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Summary and final thoughts",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    }
+                ]
+            }
+        ],
+        "Enrolled": "3,984 Learners"
+    },
+    {
+        "Learning_Product_Name": "Machine Translation in Python",
+        "Learning_Product_Category": [],
+        "Learning_Product_Image_URL": "https://images.datacamp.com/image/upload/v1683120172/courses/general_course.png",
+        "Learning_Product_URL": "https://www.datacamp.com/courses/machine-translation-in-python",
+        "Learning_Product_Price": null,
+        "Topics": [
+            {
+                "Topic Name": "Introduction to Machine Translation"
+            },
+            {
+                "Topic Name": "Implementing an Encoder-Decoder Model with Keras"
+            },
+            {
+                "Topic Name": "Training and Generating Translations"
+            },
+            {
+                "Topic Name": "Teacher Forcing and Word Embeddings"
+            }
+        ],
+        "Keyword_Matches": [],
+        "Vendor": "Datacamp",
+        "Skills": [
+            {
+                "Skill Name": "python"
+            }
+        ],
+        "Level": 3,
+        "Total_Time": "4 Hours",
+        "Provided_by": "Thushan Ganegedara",
+        "Related_Job_Titles": [],
+        "Language": "en",
+        "Type": "Course",
+        "Short_Description": "Are you curious about the inner workings of the models that are behind products like Google Translate? ",
+        "Long_Description": "The need to pack a bilingual dictionary for your European holiday or keeping one on your desk to complete your foreign language homework is a thing of the past. You just hop on the internet and make use of a language translation service to quickly understand what the street sign means or finding out how to greet and thank a foreigner in their language. Behind the language translation services are complex machine translation models. Have you ever wondered how these models work? This course will allow you to explore the inner workings of a machine translation model. You will use Keras, a powerful Python-based deep learning library, to implement a translation model. You will then train the model to perform an English to French translation, and you will be shown techniques to improve your model. At the end of this course, you would have developed an in-depth understanding of machine translation models and appreciate them even more!",
+        "Prerequisites": [
+            "Introduction to Deep Learning in Python"
+        ],
+        "UserRating": null,
+        "UserRatingCount": null,
+        "Modules": [
+            {
+                "Module Name": "Introduction to Machine Translation",
+                "Module Description": "In this chapter, you'll understand what the encoder-decoder architecture is and how it is used for machine translation. You will also learn about Gated Recurrent Units (GRUs) and how they are used in the encoder-decoder architecture.",
+                "Time": null,
+                "Lessons": [
+                    {
+                        "Lesson Name": "Introduction to machine translation",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Understanding one-hot vectors",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Part 1: Exploring the to_categorical() function",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Part 2: Exploring the to_categorical() function",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Encoder decoder architecture",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Part 1: Text reversing model - Encoder",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Part 2: Text reversing model - Encoder",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Complete text reversing model",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Understanding sequential models",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Part 1: Understanding GRU models",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Part 2: Understanding GRU models",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Understanding sequential model output",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    }
+                ]
+            },
+            {
+                "Module Name": "Implementing an Encoder-Decoder Model with Keras",
+                "Module Description": "In this chapter, you will implement the encoder-decoder model with the Keras functional API. While doing so, you will learn several useful Keras layers such as RepeatVector and TimeDistributed layers.",
+                "Time": null,
+                "Lessons": [
+                    {
+                        "Lesson Name": "Implementing the encoder",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Part 1: Exploring the dataset",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Part 2: Exploring the dataset",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Defining the encoder",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Implementing the decoder",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Understanding the RepeatVector layer",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "The shape of a RepeatVector layer output",
+                        "Lesson Description": null,
+                        "Type": "Multiple Choice Questions",
+                        "Raw Type": "PureMultipleChoiceExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Defining the decoder",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Dense and TimeDistributed layers",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Part 1: Enter to win amazing prizes",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Part 2: Let's play a few more games",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Implementing the full encoder decoder model",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Part 1: Defining the full model",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Part 2: Defining the full model",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    }
+                ]
+            },
+            {
+                "Module Name": "Training and Generating Translations",
+                "Module Description": "In this chapter, you will train the previously defined model and then use a well-trained model to generate translations. You will see that our model does a good job when translating sentences.",
+                "Time": null,
+                "Lessons": [
+                    {
+                        "Lesson Name": "Part 1: Preprocessing the Data",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Tokenizing sentences with Keras",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Controlling the vocabulary with the Tokenizer",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Part 2: Preprocessing the Data",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Adding special tokens",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Padding sentences",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Reversing sentences",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Training the NMT model",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Training the model",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Splitting data to training and validation sets",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Training the model with validation",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Generating translations with the NMT",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Part 1: Treasure hunt",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Part 2: Treasure hunt",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Generating English-French translations",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    }
+                ]
+            },
+            {
+                "Module Name": "Teacher Forcing and Word Embeddings",
+                "Module Description": "In this chapter, you will learn about a technique known as Teacher Forcing, which enables translation models to be trained better and faster.  Then you will learn how you can use word embeddings to make the model even better.",
+                "Time": null,
+                "Lessons": [
+                    {
+                        "Lesson Name": "Introduction to Teacher Forcing",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Defining the Teacher Forcing model layers",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Defining the Teacher Forcing model",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Preprocessing data",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Training the model with Teacher Forcing",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Training the model",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Splitting training and validation data",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Training the model with validation",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Generating translations from the model",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Defining the decoder of the inference model",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Link between the trained and inference model",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Generating translations",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Using word embedding for machine translation",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Measuring word vector similarity",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Defining the embedding model",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Training the word embedding based model",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Wrap-up and the final showdown",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    }
+                ]
+            }
+        ],
+        "Enrolled": "3,463 Learners"
+    },
+    {
+        "Learning_Product_Name": "Analyzing IoT Data in Python",
+        "Learning_Product_Category": [],
+        "Learning_Product_Image_URL": "https://images.datacamp.com/image/upload/v1683120172/courses/general_course.png",
+        "Learning_Product_URL": "https://www.datacamp.com/courses/analyzing-iot-data-in-python",
+        "Learning_Product_Price": null,
+        "Topics": [
+            {
+                "Topic Name": "Accessing IoT Data"
+            },
+            {
+                "Topic Name": "Processing IoT Data"
+            },
+            {
+                "Topic Name": "Analyzing IoT Data"
+            },
+            {
+                "Topic Name": "Machine Learning for IoT"
+            }
+        ],
+        "Keyword_Matches": [],
+        "Vendor": "Datacamp",
+        "Skills": [
+            {
+                "Skill Name": "python"
+            }
+        ],
+        "Level": 1,
+        "Total_Time": "4 Hours",
+        "Provided_by": "Matthias Voppichler",
+        "Related_Job_Titles": [],
+        "Language": "en",
+        "Type": "Course",
+        "Short_Description": "Learn how to import, clean and manipulate IoT data in Python to make it ready for machine learning.",
+        "Long_Description": "Have you ever heard about Internet of Things devices? Of course, you have. Maybe you also have a Raspberry PI in your house monitoring the temperature and humidity.\n  IoT devices are everywhere around us, collecting data about our environment.\n  You will be analyzing Environmental data, Traffic data as well as energy counter data.\n  Following the course, you will learn how to collect and store data from a data stream.\n  You will prepare IoT data for analysis, analyze and visualize IoT data, before  implementing\n  a simple machine learning model to take action when certain events occur and deploy this model\n  to a real-time data stream.",
+        "Prerequisites": [
+            "Data Manipulation with pandas"
+        ],
+        "UserRating": null,
+        "UserRatingCount": null,
+        "Modules": [
+            {
+                "Module Name": "Accessing IoT Data",
+                "Module Description": "In this chapter, you will first understand what IoT data is.\nThen, you learn how to aquire IoT data through a REST API and using an MQTT data stream to collect data in real time.",
+                "Time": null,
+                "Lessons": [
+                    {
+                        "Lesson Name": "Introduction to IoT data",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "IoT devices",
+                        "Lesson Description": null,
+                        "Type": "Multiple Choice Questions",
+                        "Raw Type": "PureMultipleChoiceExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Data acquisition",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Acquire data with pandas",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Understand the data",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Store data",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Read data from file",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "BulletExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Understanding the data",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Introduction to Data streams",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "What is MQTT",
+                        "Lesson Description": null,
+                        "Type": "Multiple Choice Questions",
+                        "Raw Type": "PureMultipleChoiceExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "MQTT single message",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Save Datastream",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    }
+                ]
+            },
+            {
+                "Module Name": "Processing IoT Data",
+                "Module Description": "In the second chapter, you will look at the  data  you gathered during the first chapter.  You will visualize the data and learn the importance of timestamps when dealing with data streams. You will also implement caching to an MQTT data stream.",
+                "Time": null,
+                "Lessons": [
+                    {
+                        "Lesson Name": "Perform EDA",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Line plots",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "BulletExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Histogram Plot",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Clean Data",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Dealing with missing data",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "MultipleChoiceExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Missing data",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "BulletExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Missing data II",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Gather minimalistic incremental data",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Which timestamp?",
+                        "Lesson Description": null,
+                        "Type": "Multiple Choice Questions",
+                        "Raw Type": "PureMultipleChoiceExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Cache Datastream",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Date and Time",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "BulletExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Prepare and visualize incremental data",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Pivoting",
+                        "Lesson Description": null,
+                        "Type": "Multiple Choice Questions",
+                        "Raw Type": "PureMultipleChoiceExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Reformat data",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Analyzing Energy counter data",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "BulletExercise",
+                        "time": null
+                    }
+                ]
+            },
+            {
+                "Module Name": "Analyzing IoT Data",
+                "Module Description": "In this chapter, you will combine multiple datasoures with different time intervals.\nYou will then analyze the data to detect correlations, outliers and trends.",
+                "Time": null,
+                "Lessons": [
+                    {
+                        "Lesson Name": "Combining datasources for further analysis",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Concatenate DataFrames",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Combine and resample",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Correlation",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Heatmaps",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Pairplot",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Outliers",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Standard deviation",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Autocorrelation",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Seasonality and trends",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Seasonal decomposition",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Seasonal decomposition II",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    }
+                ]
+            },
+            {
+                "Module Name": "Machine Learning for IoT",
+                "Module Description": "In this final chapter, you will use the data you analyzed during the previous chapters to build a machine learning pipeline. You will then learn how to implement this pipeline into a data stream to make realtime predictions.",
+                "Time": null,
+                "Lessons": [
+                    {
+                        "Lesson Name": "Prepare data for machine learning",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Train/Test split",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Logistic Regression",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Scaling data for machine learning",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Model performance",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Scaling",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Scaling II",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Develop machine learning pipeline",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Creating Pipelines",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Store Pipeline",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "TabExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Apply a machine learning model",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Model predictions",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Apply model to data stream",
+                        "Lesson Description": null,
+                        "Type": "Exercise",
+                        "Raw Type": "NormalExercise",
+                        "time": null
+                    },
+                    {
+                        "Lesson Name": "Wrapping up",
+                        "Lesson Description": null,
+                        "Type": "Video",
+                        "Raw Type": "VideoExercise",
+                        "time": null
+                    }
+                ]
+            }
+        ],
+        "Enrolled": "4,585 Learners"
+    }
+]
