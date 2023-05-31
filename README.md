@@ -29,7 +29,7 @@ CONCURRENT_REQUESTS = 1
 
 
 --> If you are using scrapeops_scrapy_proxy_sdk, scrapy-user-agents
-SCRAPEOPS_API_KEY = '1618e303-e0a3-456e-b3fe-eb7b5c4de5'
+SCRAPEOPS_API_KEY = ''
 SCRAPEOPS_PROXY_ENABLED = True
 
 DOWNLOADER_MIDDLEWARES = {

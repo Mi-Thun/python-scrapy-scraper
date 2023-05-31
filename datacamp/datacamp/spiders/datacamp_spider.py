@@ -14,7 +14,6 @@ class DatacampSpiderSpider(scrapy.Spider):
     start_urls = ['https://www.datacamp.com/']
 
     def start_requests(self):
-        
         keyword_list = ['Artificial Intelligence', 'Algorithms', 'Data Structures', 'Internet of Things', 
                         'Information Technology', 'Computer Networking', 'Machine Learning', 'DevOps', 
                         'Deep Learning', 'Natural Language Processing', 'Cryptography', 'Quantum Computing',
@@ -127,11 +126,11 @@ class DatacampSpiderSpider(scrapy.Spider):
         items['Learning_Product_Name'] = response.css('.css-1r7eu3v-CoursePage::text').get()
         
         catagoryfromall = []
-        for i in catagory_json:
-            for valye in i.values():
-                for k in valye:
-                    if k == url:
-                        catagoryfromall.extend(i.keys())
+        for ii in catagory_json:
+            for valye1 in ii.values():
+                for kk in valye1:
+                    if kk == url:
+                        catagoryfromall.extend(ii.keys())
         items['Learning_Product_Category'] = catagoryfromall
         
         items['Learning_Product_Image_URL'] = Learning_Product_Image_URL[0]
@@ -144,11 +143,11 @@ class DatacampSpiderSpider(scrapy.Spider):
         items['Topics'] = topic
         
         keywordfromall = []
-        for i in keyword_json:
-            for valye in i.values():
-                for k in valye:
-                    if k == url:
-                        catagoryfromall.extend(i.keys())
+        for iii in keyword_json:
+            for valye2 in iii.values():
+                for kkk in valye2:
+                    if kkk == url:
+                        keywordfromall.extend(iii.keys())
         items['Keyword_Matches'] = keywordfromall
         
         items['Vendor'] = "Datacamp"
@@ -162,7 +161,9 @@ class DatacampSpiderSpider(scrapy.Spider):
         items['Total_Time'] = response.css('.css-1ton54v-CoursePage::text')[0].get()
         items['Provided_by'] = response.css('.css-2ce4tz-InstructorDetails::text').get()
         items['Related_Job_Titles'] = []
-        items['Language'] = availableLanguage[0]
+        if availableLanguage[0] == 'en':
+            language = 'English'
+        items['Language'] = language
         items['Type'] = "Course"
         items['Short_Description'] = response.css('.css-1n2d7d8-CoursePage::text').get()
         items['Long_Description'] = response.css('.css-bqmo1r-CourseDetails::text').get()
